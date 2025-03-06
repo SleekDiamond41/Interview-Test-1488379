@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "95229BF0-774D-4FF6-A4DE-8EB24E43932F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "LiveTests",
+        "name" : "LiveTests"
+      }
+    }
+  ],
+  "version" : 1
+}

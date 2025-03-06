@@ -3,15 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1C4D2F2D76C1E0005CE4EE /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D2E2D76C1E0005CE4EE /* Core */; };
+		4C1C4D312D76C1E0005CE4EE /* Interface in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D302D76C1E0005CE4EE /* Interface */; };
+		4C1C4D332D76C1E0005CE4EE /* Live in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D322D76C1E0005CE4EE /* Live */; };
+		4C1C4D3A2D7959CD005CE4EE /* Bonus in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D392D7959CD005CE4EE /* Bonus */; };
+		4C1C4D3C2D7959CD005CE4EE /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D3B2D7959CD005CE4EE /* Core */; };
+		4C1C4D3E2D7959CD005CE4EE /* Interface in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D3D2D7959CD005CE4EE /* Interface */; };
+		4C1C4D402D7959CD005CE4EE /* Live in Frameworks */ = {isa = PBXBuildFile; productRef = 4C1C4D3F2D7959CD005CE4EE /* Live */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C6BCBB52D768BC800CDD96D /* Cricut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cricut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C1C4D352D76C2B1005CE4EE /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4C6BCBB42D768BC800CDD96D /* Cricut */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4C6BCBB72D768BC800CDD96D /* Cricut */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Cricut; sourceTree = "<group>"; };
+		4C6BCBB72D768BC800CDD96D /* Cricut */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (4C1C4D352D76C2B1005CE4EE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Cricut; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -19,6 +39,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1C4D3E2D7959CD005CE4EE /* Interface in Frameworks */,
+				4C1C4D402D7959CD005CE4EE /* Live in Frameworks */,
+				4C1C4D3A2D7959CD005CE4EE /* Bonus in Frameworks */,
+				4C1C4D332D76C1E0005CE4EE /* Live in Frameworks */,
+				4C1C4D312D76C1E0005CE4EE /* Interface in Frameworks */,
+				4C1C4D3C2D7959CD005CE4EE /* Core in Frameworks */,
+				4C1C4D2F2D76C1E0005CE4EE /* Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,13 @@
 			);
 			name = Cricut;
 			packageProductDependencies = (
+				4C1C4D2E2D76C1E0005CE4EE /* Core */,
+				4C1C4D302D76C1E0005CE4EE /* Interface */,
+				4C1C4D322D76C1E0005CE4EE /* Live */,
+				4C1C4D392D7959CD005CE4EE /* Bonus */,
+				4C1C4D3B2D7959CD005CE4EE /* Core */,
+				4C1C4D3D2D7959CD005CE4EE /* Interface */,
+				4C1C4D3F2D7959CD005CE4EE /* Live */,
 			);
 			productName = Cricut;
 			productReference = 4C6BCBB52D768BC800CDD96D /* Cricut.app */;
@@ -90,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 4C6BCBAC2D768BC800CDD96D;
+			packageReferences = (
+				4C1C4D382D7959CD005CE4EE /* XCLocalSwiftPackageReference "Packages/Cricut-Package" */,
+			);
 			productRefGroup = 4C6BCBB62D768BC800CDD96D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +282,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cricut/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cricut/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,6 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cricut/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cricut/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,6 +369,44 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4C1C4D382D7959CD005CE4EE /* XCLocalSwiftPackageReference "Packages/Cricut-Package" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/Cricut-Package";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C1C4D2E2D76C1E0005CE4EE /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		4C1C4D302D76C1E0005CE4EE /* Interface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Interface;
+		};
+		4C1C4D322D76C1E0005CE4EE /* Live */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Live;
+		};
+		4C1C4D392D7959CD005CE4EE /* Bonus */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Bonus;
+		};
+		4C1C4D3B2D7959CD005CE4EE /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		4C1C4D3D2D7959CD005CE4EE /* Interface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Interface;
+		};
+		4C1C4D3F2D7959CD005CE4EE /* Live */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Live;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C6BCBAD2D768BC800CDD96D /* Project object */;
 }
